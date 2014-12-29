@@ -1,0 +1,57 @@
+body {
+	background-color: #C2E0FF;
+}
+
+img#right {
+	max-width: 60%;
+	position: relative;
+}
+
+img#left {
+	max-width: 60%;
+	float: left;
+}
+
+h1 {
+	font-family: "Times New Roman";
+}
+
+h1#up {
+	font-family: "Helvetica";
+}
+
+h3#severity {
+	color:#B20000;
+}
+
+#spacer {
+	padding-top:10px;
+}
+
+.upper {
+	background-color: white;
+	line-height: 20px;
+	text-align: center;
+	font-family: "Helvetica";
+	max-width: 75%;
+	padding:20px;
+	margin: 0 auto;
+}
+
+.inner {
+	max-width: 75%;
+	padding:20px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.block {
+	font-family: "Helvetica";
+	line-height: 25px;
+}
+
+#sub {
+	font-style: italic;
+	font-size: 9px;
+	color:grey;
+}

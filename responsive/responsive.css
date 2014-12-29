@@ -1,0 +1,58 @@
+/* bottom right homer */
+@media all and (max-width: 480px) {
+	.homer {
+		background: url(homer.jpg);
+		position:absolute;
+		width:600px;
+		height:600px;
+		top:-300px;
+		left:-300px;
+		clip: rect(300px,600px,600px,300px);
+	}
+}
+
+/* bottom left homer */
+@media all and (min-width: 481px) and (max-width: 768px) {
+	.homer {
+		background: url(homer.jpg);
+		position:absolute;
+		width:600px;
+		height:600px;
+		top:-300px;
+		clip: rect(300px,300px,600px,0px);
+	}
+}
+
+/* top right homer */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+	.homer {
+		background: url(homer.jpg);
+		position:absolute;
+		width:600px;
+		height:600px;
+		left:-300px;
+		clip: rect(0px,600px,300px,300px);
+	}
+
+}
+
+/* top left homer */
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+	.homer {
+		background: url(homer.jpg);
+		width:300px;
+		height:300px;
+	}
+}
+
+/* whole homer */
+@media all and (min-width: 1281px) {
+	.homer {
+		background: url(homer.jpg);
+		width:600px;
+		height:600px;
+	}
+}
+
+
+

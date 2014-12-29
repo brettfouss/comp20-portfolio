@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Daydream Believer</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+<h1 id="title">Daydream Believer</h1>
+
+<video src="http://www.cs.tufts.edu/comp/20/daydream_believer.webm" id="music_video" controls></video>
+<div id="lyrics"></div>
+
+<script>
+
+function updateText() {
+	var v = document.getElementById("music_video");
+ 
+ 	//verse one
+	if (v.currentTime >= 5 && v.currentTime < 8) {
+	document.getElementById("lyrics").innerHTML = "Oh, I could hide";
+	} if (v.currentTime >= 8 && v.currentTime < 10) {
+	document.getElementById("lyrics").innerHTML = "'neath the wings";
+	} if (v.currentTime >= 10 && v.currentTime < 12) {
+	document.getElementById("lyrics").innerHTML = "Of the bluebird";
+	} if (v.currentTime >= 12 && v.currentTime < 14) {
+	document.getElementById("lyrics").innerHTML = "as she sings.";
+	} if (v.currentTime >= 15 && v.currentTime < 16) {
+	document.getElementById("lyrics").innerHTML = "The six o'clock alarm";
+	} if (v.currentTime >= 18 && v.currentTime < 20) {
+	document.getElementById("lyrics").innerHTML = "would never ring";
+	} if (v.currentTime >=  22 && v.currentTime < 24) {
+	document.getElementById("lyrics").innerHTML = "But it rings ";
+	} if (v.currentTime >=  24 && v.currentTime < 26) {
+	document.getElementById("lyrics").innerHTML = "and I rise";
+	} if (v.currentTime >=  26 && v.currentTime < 27) {
+	document.getElementById("lyrics").innerHTML = "Wipe the sleep";
+	} if (v.currentTime >=  27 && v.currentTime < 30) {
+	document.getElementById("lyrics").innerHTML = "out of my eyes";
+	} if (v.currentTime >=  30 && v.currentTime < 33) {
+	document.getElementById("lyrics").innerHTML = "My shavin' razor's cold";
+	} if (v.currentTime >=  33 && v.currentTime < 38) {
+	document.getElementById("lyrics").innerHTML = "and it stings.";
+	}
+
+	//chorus
+	if (v.currentTime >=  37.5 && v.currentTime < 40) {
+	document.getElementById("lyrics").innerHTML = "<p>Cheer up Sleepy Jean. </p> <img src='http://media2.giphy.com/media/BxQ2nb982qWRO/giphy.gif'>";
+	} if (v.currentTime >=  41 && v.currentTime < 42) {
+	document.getElementById("lyrics").innerHTML = "<p>Oh, what can it mean?</p> <img src='http://media2.giphy.com/media/BxQ2nb982qWRO/giphy.gif'>";
+	} if (v.currentTime >=  44 && v.currentTime < 46) {
+	document.getElementById("lyrics").innerHTML = "<p>To a</p> <img src='http://media2.giphy.com/media/BxQ2nb982qWRO/giphy.gif'>";
+	} if (v.currentTime >=  46 && v.currentTime < 48) {
+	document.getElementById("lyrics").innerHTML = "<p>daydream believer</p> <img src='http://media2.giphy.com/media/BxQ2nb982qWRO/giphy.gif'>";
+	} if (v.currentTime >=  48 && v.currentTime < 50) {
+	document.getElementById("lyrics").innerHTML = "<p>And a</p> <img src='http://media2.giphy.com/media/BxQ2nb982qWRO/giphy.gif'>";
+	} if (v.currentTime >=  50 && v.currentTime < 54) {
+	document.getElementById("lyrics").innerHTML = "<p>homecoming queen.</p> <img src='http://media2.giphy.com/media/BxQ2nb982qWRO/giphy.gif'>";
+	} 
+
+	//verse 2
+	if (v.currentTime >= 55 && v.currentTime < 56) {
+	document.getElementById("lyrics").innerHTML = "You once";
+	} if (v.currentTime >= 56 && v.currentTime < 58) {
+	document.getElementById("lyrics").innerHTML = "thought of me";
+	} if (v.currentTime >= 58 && v.currentTime < 60) {
+	document.getElementById("lyrics").innerHTML = "as a white knight";
+	} if (v.currentTime >= 60 && v.currentTime < 62) {
+	document.getElementById("lyrics").innerHTML = "on a steed";
+	} if (v.currentTime >= 62 && v.currentTime < 66) {
+	document.getElementById("lyrics").innerHTML = "Now you know how happy";
+	} if (v.currentTime >= 66 && v.currentTime < 69) {
+	document.getElementById("lyrics").innerHTML = "I can be.";
+	} if (v.currentTime >=  69 && v.currentTime < 71) {
+	document.getElementById("lyrics").innerHTML = "Oh, and our good times ";
+	} if (v.currentTime >=  71 && v.currentTime < 73) {
+	document.getElementById("lyrics").innerHTML = "start and end";
+	} if (v.currentTime >=  73 && v.currentTime < 75) {
+	document.getElementById("lyrics").innerHTML = "Without dollar";
+	} if (v.currentTime >=  75 && v.currentTime < 77.5) {
+	document.getElementById("lyrics").innerHTML = "one to spend.";
+	} if (v.currentTime >=  77.5 && v.currentTime < 80) {
+	document.getElementById("lyrics").innerHTML = "But how much, baby,";
+	} if (v.currentTime >=  80 && v.currentTime < 88) {
+	document.getElementById("lyrics").innerHTML = "do we really need?";
+	}
+
+	//chorus x 2
+	if (v.currentTime >=  85 && v.currentTime < 87) {
+	document.getElementById("lyrics").innerHTML = "<p>Cheer up Sleepy Jean.</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  89 && v.currentTime < 91) {
+	document.getElementById("lyrics").innerHTML = "<p>Oh, what can it mean?</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  91 && v.currentTime < 93) {
+	document.getElementById("lyrics").innerHTML = "<p>To a</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  93 && v.currentTime < 95.5) {
+	document.getElementById("lyrics").innerHTML = "<p>daydream believer</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  95.5 && v.currentTime < 97.5) {
+	document.getElementById("lyrics").innerHTML = "<p>And a</p><img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  97.5 && v.currentTime < 103) {
+	document.getElementById("lyrics").innerHTML = "<p>homecoming queen.</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  103 && v.currentTime < 106) {
+	document.getElementById("lyrics").innerHTML = "<p>Cheer up Sleepy Jean.</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  106 && v.currentTime < 109) {
+	document.getElementById("lyrics").innerHTML = "<p>Oh, what can it mean?</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  109 && v.currentTime < 110) {
+	document.getElementById("lyrics").innerHTML = "<p>To a</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  110 && v.currentTime < 113) {
+	document.getElementById("lyrics").innerHTML = "<p>daydream believer</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	} if (v.currentTime >=  113 && v.currentTime < 115) {
+	document.getElementById("lyrics").innerHTML = "<p>And a";
+	} if (v.currentTime >=  115 && v.currentTime < 120) {
+	document.getElementById("lyrics").innerHTML = "<p>homecoming queen.</p> <img src='http://gifshost.com/082009/1250530813_dancing_storm_troopers.gif'>";
+	}
+
+	//intstrumental interlude
+	if (v.currentTime >=  120 && v.currentTime < 87) {
+	document.getElementById("lyrics").innerHTML = "[Instrumental Interlude]";
+	} 
+
+	//chorus 
+	if (v.currentTime >=  127.5 && v.currentTime < 131) {
+	document.getElementById("lyrics").innerHTML = "Cheer up Sleepy Jean.";
+	} if (v.currentTime >=  131 && v.currentTime < 134) {
+	document.getElementById("lyrics").innerHTML = "Oh, what can it mean?";
+	} if (v.currentTime >=  134 && v.currentTime < 136) {
+	document.getElementById("lyrics").innerHTML = "To a";
+	} if (v.currentTime >=  136 && v.currentTime < 138) {
+	document.getElementById("lyrics").innerHTML = "daydream believer";
+	} if (v.currentTime >=  138 && v.currentTime < 139.5) {
+	document.getElementById("lyrics").innerHTML = "And a";
+	} if (v.currentTime >=  139.5 && v.currentTime < 146) {
+	document.getElementById("lyrics").innerHTML = "homecoming queen.";
+	}
+
+	//repeat and fade
+	if (v.currentTime >= 146) {
+	document.getElementById("lyrics").innerHTML = "[Repeat and Fade]";
+	}
+}
+
+var v = document.getElementById("music_video").addEventListener("timeupdate",updateText,true);
+	
+</script>
+</body>
+</html>	
